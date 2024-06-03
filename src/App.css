@@ -1,0 +1,610 @@
+.App {
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 136, 126);
+    color:rgb(8, 136, 126);
+  }
+  
+  
+  .auth-form-container,.login-form,.register-form{
+    display:flex;
+    flex-direction:column;
+    height:350px;
+    width:300px;
+  }
+  
+  .auth-form-container{
+    position:relative; 
+    border: 1px solid rgb(253, 253, 253);
+    padding: 5rem;
+    border-radius:10px;
+    margin:1rem;
+    margin-left: 700px;
+    background-color: #fbfbfb;
+    
+  
+  }
+  
+  label{
+    text-align:left;
+    padding:0.25rem;
+  }
+  input{
+    margin:2rem 1rem 0;
+    padding:1rem;
+    border-radius:10px; 
+    border:1px solid;
+    outline: none;
+    
+  }
+  input.invalid:focus{
+    border:1px solid rgb(255, 0, 51);
+  }
+  input.valid:focus{
+    border:1px solid rgb(0, 255, 51);
+  }
+  .error{
+    color:red;
+    font-size: small;
+    margin: 2px;
+  }
+  
+  .button1{
+    margin:2rem 5.5rem;
+    padding:1rem;
+    border-radius:10px;
+    border:1px solid;
+    cursor:pointer;
+    color:white;
+    background-color:rgb(8, 136, 126);
+    width: 40%;
+  }
+  
+  .link-btn{
+    border-radius:10px;
+    background:none;
+    text-decoration: underline;
+    color:white;
+  }
+  .radiobtn{
+    display:inline;
+  }
+  img{
+    position: absolute;
+    top: 0%;
+    left:10%;
+    height: 55%;
+  }
+  h3{
+    position:absolute;
+    top:55%;
+    left:10%;
+    font-size:50px;
+    color: rgb(225, 106, 42);
+    text-decoration: underline;
+    text-underline-offset: 15px;
+    text-decoration-color: white;
+  }
+  .navbar {
+    overflow: hidden;
+    background-color: #29557E;
+    height:100px;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    margin-left:25%;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 30px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+
+    text-decoration: underline;
+    text-underline-offset: 10px;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:center;
+    margin:0px;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .class1{
+    background-color:rgb(8, 136, 126) ;
+    min-height: 130vh;
+  }
+  .img2{
+    height:80px;
+    width:80px;
+    padding:10px 30px;
+    left:0%;
+  }
+  .btn1{
+    margin: 25px;
+    float: right;
+  }
+  
+  .error-message{
+    color:red;
+  
+  }
+  h1{
+    margin-top:0rem;
+    margin-bottom:1rem;
+  }
+  button{
+    padding:1rem;
+    border-radius:10px;
+    border:1px solid;
+    cursor:pointer;
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+  }
+
+  .table1{
+    margin:10px;
+  
+  }
+
+  .buttonw{
+  position:relative;
+  left:88%;
+  margin-top: 20px;
+  padding:0.5rem;
+  border-radius:10px;
+  border:1px solid;
+  cursor:pointer;
+  color:rgb(255, 255, 255);
+  background-color:#146ad2;
+   
+  }
+  .buttonw1{
+    padding: 5px;
+    border-radius: 0px;
+  }
+  
+  .bt1{
+    display: flex;
+    flex-direction: row;
+  }
+  .divorg{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin:5%;
+  }
+  .input1, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  
+  
+  .input1[type=submit] {
+    width: 10%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .input1[type=button] {
+    width: 10%;
+    background-color: #ff0000;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .input1[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .dropdown1 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn1 {
+    background-color:  #000000;;
+    color: white;
+    padding: 8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content1 {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content1 button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background-color: white;
+    border: none;
+    width: 100%;
+    text-align: left;
+  }
+  
+  .dropdown-content1 button:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown1:hover .dropdown-content1 {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  
+  .table-container {
+    margin-top: 20px;
+    overflow-x: auto;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+  
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin:0px 20px 20px 20px;
+  }
+  
+  thead th {
+    background-color: #48d299;
+    border-bottom: 2px solid #ddd;
+    padding: 12px;
+    text-align: left;
+  }
+  
+  tbody td {
+    border-bottom: 1px solid #000000;
+    padding: 12px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .cell {
+    display: block;
+  }
+  
+  .pagebutton {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pg1 {
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .pg1:hover {
+    background-color: #0056b3;
+  }
+  
+  .tabdiv{
+    background-color: rgb(253, 255, 253);
+    margin: 2rem 2rem;
+  
+  }
+
+  .template-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    justify-content: center; 
+  }
+
+  .template-card {
+    width: 200px;
+    margin: 20px;
+    height: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    overflow: hidden;
+    text-align: center;
+  }
+  
+
+  .template-content-container {
+    width: 100%;
+    height: 100%;
+    padding:3px;
+
+    overflow: hidden;
+  }
+  
+
+  .template-content {
+    transform: scale(0.5); 
+    transform-origin: top left;
+    width: 200%; 
+    height: 200%; 
+  }
+  
+
+  .template-actions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  
+
+  .template-actions button {
+    padding: 5px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+  }
+  
+
+  .template-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-filter {
+    margin-bottom: 20px;
+  }
+  
+  .search-filter input[type="text"] {
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+  }
+  
+  .search-filter select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    width: 10%;
+  }
+  
+  .template-view-containers {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: auto;
+  }
+  
+  .template-contents {
+    width: 100%;
+    max-width: 800px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: auto;
+  }
+  .back-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .template-header {
+    text-align: center; 
+  }
+  
+  .template-header h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #ffffff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group-inline {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .form-group-inline label {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .form-group-inline label:last-child {
+    margin-right: 0;
+  }
+  
+
+  .input1 {
+    margin-left: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    flex: 1;
+  }
+  
+  
+  .input1[type="file"] {
+    padding: 8px;
+  
+  }
+  
+
+  .button-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+  
+  .button-group button, .button-group input {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .button-group .csv-button {
+    text-decoration: none;
+    color: white;
+    background-color: #4CAF50;
+  }
+  
+  .buttons{
+    margin-left: 1rem;
+    padding:5px;
+    border-radius:0px;
+    border:1px solid;
+    cursor:pointer;
+    color:rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+  }
+  
+  .table-container1 {
+    margin-left:4%;
+    width: 90%;
+
+    margin-bottom: 20px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .cell {
+    display: block;
+  }
+  
+  th .cell {
+    font-weight: bold;
+    
+  }
+  
+  .row-checkbox {
+    cursor: pointer;
+  }
+  
+  .send-button {
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    margin-left:85%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .send-button:hover {
+    background-color: #45a049;
+  }
+  
+
+
+

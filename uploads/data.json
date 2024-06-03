@@ -1,0 +1,26 @@
+[
+  {
+    "Name": "Pravesh Naik",
+    "email": "recipient@example.com",
+    "contactno": "7894561230"
+  },
+  {
+    "Name": "Prajat Naik",
+    "email": "recipient@example.com",
+    "contactno": "7894561230"
+  },
+  {
+    "Name": "Pravesh Naik",
+    "email": "recipient@example.com",
+    "contactno": "7894561230",
+    "status": "",
+    "message": ""
+  },
+  {
+    "Name": "Pravesh Naik",
+    "email": "recipient@example.com",
+    "contactno": "7894561230",
+    "status": "",
+    "message": ""
+  }
+]

@@ -1,0 +1,16 @@
+[
+  {
+    "Name": "Prajat Naik",
+    "email": "npravesh514@gmail.com",
+    "contactno": "7894561230",
+    "status": "sent",
+    "message": "Successfully sent"
+  },
+  {
+    "Name": "Pravesh Naik",
+    "email": "praveshnaik0360gmail.com",
+    "contactno": "7894561286",
+    "status": "failed",
+    "message": "Error sending email: No recipients defined"
+  }
+]
